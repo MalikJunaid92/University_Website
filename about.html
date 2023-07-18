@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/acf693ee2f.js" crossorigin="anonymous"></script>
+    <title>University website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="project3.html"><img src="logo.png"> </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="about.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+     </nav>
+     <h1>About Us</h1>
+     
+    </section>
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>World's Biggest University</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quibusdam delectus eveniet. Officiis dolorem eaque consectetur ad, quidem odio fugit sapiente ipsam nobis cum error! Tempora voluptatibus modi corrupti atque temporibus eaque ratione possimus, magnam inventore animi numquam dolorum adipisci, ad amet quaerat et officiis iusto illo quidem quasi autem blanditiis! Ad eveniet eum consequatur laborum mollitia ab beatae porro deserunt, officiis facilis iusto nam quo consequuntur nesciunt laboriosam enim vel suscipit delectus tempore neque natus corrupti, optio esse nihil! Incidunt cupiditate delectus consequatur magnam ipsum, animi ullam nulla vel sed debitis nisi voluptatum! Amet repudiandae corporis laborum odio rem.</p>
+        <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!------------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ex sunt suscipit quasi sit  quidem illum quia,<br> placeat ad, neque enim nisi doloribus est nostrum. Accusamus, voluptate!</p>
+            <div class="icons">
+               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    <!------Javascript for toggle menu-->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-500";
+        }
+    </script>
+
+</div>
+</body>
+</html>

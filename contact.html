@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/acf693ee2f.js" crossorigin="anonymous"></script>
+    <title>University website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="project3.html"><img src="logo.png"> </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="about.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+     </nav>
+     <h1>Contact Us</h1>
+     
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13602.744629615981!2d74.31834674999999!3d31.5327787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919049bf02720f9%3A0x4295a66061acf664!2sIchhra%20Lahore%2C%20Punjab%2054000!5e0!3m2!1sen!2s!4v1686149353141!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span><h5>XYZ Road, ABS Building</h5>
+                        <p>Lahore,Samnabad,PAk</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span><h5>+92 3164987680</h5>
+                        <p>Monday to Saturday,10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span><h5> <a href="mailto:junaidnaveed030000@gmail.com">junaidnaveed030000@gmail.com</a></h5>
+                        <p>Email us your query</p>
+                    </span>
+                
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="email" placeholder="enter your email address" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea rows="8 " placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+      <!------------Footer-------->
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ex sunt suscipit quasi sit  quidem illum quia,<br> placeat ad, neque enim nisi doloribus est nostrum. Accusamus, voluptate!</p>
+        <div class="icons">
+           <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </section>
+      
+
+
+
+    <!------Javascript for toggle menu-->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-500";
+        }
+    </script>
+
+</div>
+</body>
+</html>
